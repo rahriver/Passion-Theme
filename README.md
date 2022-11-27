@@ -1,7 +1,7 @@
 # Obsidian Passion Theme
 Custom CSS theme for Obsidian:
 
-- Dracula codeblocks
+- Dracula themed codeblocks
 - Color coded headers
 - Dark & light
 - Colored bold, italic, highlight
@@ -9,9 +9,9 @@ Custom CSS theme for Obsidian:
 - Based on the Atom theme
 
 ## Dark Theme
-![Main](./Screenshots/bio.png)
+![Main](./Screenshots/main.png)
 ![Graph](./Screenshots/graph.png)
-![Code](./Screenshots/guide.png)
+![Guide](./Screenshots/guide.png)
 
 ## Light Theme
 ![Light](./Screenshots/light.png)
