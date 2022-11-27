@@ -192,7 +192,7 @@ a.tag, a.tag:hover {
 
 /* Italic color in preview mode */
 .markdown-preview-section em {
-    color: #dd6dff !important;
+    color: #3dd5ff !important;
 	font-style: italic !important;
 }
 
@@ -300,6 +300,50 @@ mjx-container[jax='CHTML'] {
 h1, h2, h3, h4, h5, h6, strong, b, .view-header-title {
   font-weight: 600;
 }
+
+/* <<--------- Header Color --------->> */
+/*for "Source mode" and "Live Preview"*/
+
+.cm-header-1{
+    color: #dee514;
+}
+.cm-header-2{
+    color: #e36bff;
+}
+.cm-header-3{
+    color: #35b8e8;
+}
+.cm-header-4{
+    color: #5ee5c1;
+}
+.cm-header-5{
+    color: #dddddd;
+}
+.cm-header-6{
+    color: #969696;
+}
+
+/*for "Source mode"*/
+
+.markdown-preview-view h1{
+    color: #dee514;
+}
+.markdown-preview-view h2{
+    color: #e36bff;
+}
+.markdown-preview-view h3{
+    color: #35b8e8;
+}
+.markdown-preview-view h4{
+    color: #5ee5c1;
+}
+.markdown-preview-view h5{
+color: #dddddd;
+}
+.markdown-preview-view h6{
+    color: #969696;
+}
+/* <<--------- Color Header --------->> */
 
 .workspace>.workspace-split>.workspace-leaf:first-of-type:last-of-type .view-header {
   border: none;
