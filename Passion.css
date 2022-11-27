@@ -1,13 +1,13 @@
 .theme-dark {
   --background-primary: #000819;
-  --background-primary-alt: #08001c;
+  --background-primary-alt: #110a28;
   --background-secondary: #000819;
-  --background-secondary-alt: #1a1e24;
-  --background-accent: #000;
+  --background-secondary-alt: #000819;
+  --background-accent: #000819;
   --background-modifier-border: #003363;
   --background-modifier-form-field: rgba(0, 0, 0, 0.3);
   --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
-  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-box-shadow: #894ac4;
   --background-modifier-success: #539126;
   --background-modifier-error: #3d0000;
   --background-modifier-error-rgb: 61, 0, 0;
@@ -32,15 +32,30 @@
   --scrollbar-bg: #894ac4;
   --scrollbar-thumb-bg: #5082df;
   --panel-border-color: #18191e;
+
+/* Color Scheme: Dracula */
   --gray-1: #5C6370;
   --gray-2: #abb2bf;
-  --red: #e06c75;
+  --red: #f87cff;
   --orange: #d19a66;
-  --green: #98c379;
+  --green: #00ff77;
   --aqua: #56b6c2;
-  --purple: #894ac4;
+  --purple: #9c4bbc;
   --blue: #61afef;
-  --yellow: #e5c07b;
+  --yellow: #e6e894;
+
+
+/* Color Scheme: Monokai */
+
+/* --gray-1: #5C6370; */
+/* --gray-2: #abb2bf; */
+/* --red: #f92a68; */
+/* --orange: #d19a66; */
+/* --green: #79e200; */
+/* --aqua: #56b6c2; */
+/* --purple: #894ac4; */
+/* --blue: #61afef; */
+/* --yellow: #e5c07b; */
 }
 
 .theme-light {
@@ -163,19 +178,19 @@ a.tag, a.tag:hover {
   vertical-align: baseline;
 }
 
-/* Different color for bold*/
+/* Bold color */
 .cm-strong,
 .markdown-preview-section strong {
   color: #dee514 !important;
 }
 
-/* Different color for italic */
+/* Italic color in edit mode */
 .cm-em {
-    color: #cc241d;
+    color: #dd6dff;
 	font-style: italic !important;
 }
 
-/* of italics in Preview  all notes in a vault */
+/* Italic color in preview mode */
 .markdown-preview-section em {
     color: #dd6dff !important;
 	font-style: italic !important;
@@ -242,7 +257,7 @@ body:not(.is-grabbing) .nav-file .nav-file-title:hover:not(.is-active), body:not
 
 blockquote {
   margin: 20px 0;
-  border-radius: 4px !important;
+  border-radius: 6px !important;
 }
 
 body {
@@ -260,7 +275,7 @@ mjx-container[jax='CHTML'] {
 
 .cm-s-obsidian pre.HyperMD-codeblock, .cm-s-obsidian span.cm-inline-code, .cm-s-obsidian span.cm-math:not(.cm-formatting-math-begin):not(.cm-formatting-math-end), .markdown-preview-view code {
   /* fix `` tag color */
-  color: #98c379;
+  color: #ffffff;
 }
 
 .cm-s-obsidian span.cm-inline-code, .cm-s-obsidian span.cm-math, .cm-s-obsidian span.hmd-fold-math-placeholder {
@@ -296,7 +311,7 @@ h1, h2, h3, h4, h5, h6, strong, b, .view-header-title {
 }
 
 .status-bar {
-  --bar-vertical-padding: 4px;
+  --bar-vertical-padding: 2px;
   --bar-height: calc(22px + (var(--bar-vertical-padding) * 2));
   line-height: 20px;
   padding: 0 20px;
@@ -363,8 +378,6 @@ a:hover, .markdown-preview-view .internal-link:hover {
   background: transparent;
 }
 
-/* Source: https://github.com/AGMStudio/prism-theme-one-dark */
-
 code[class*='language-'], pre[class*='language-'] {
   text-align: left !important;
   white-space: pre !important;
@@ -422,19 +435,19 @@ pre[class*='language-'] {
 }
 
 .token.atrule, .token.keyword {
-  color: var(--purple) !important;
+  color: var(--red) !important;
 }
 
 .token.function, .token.macro.property {
-  color: var(--blue) !important;
+  color: var(--green) !important;
 }
 
 .token.class-name {
-  color: var(--yellow) !important;
+  color: var(--green) !important;
 }
 
 .token.regex, .token.important, .token.variable {
-  color: var(--purple) !important;
+  color: var(--red) !important;
 }
 
 .token.important, .token.bold {

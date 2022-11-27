@@ -5,6 +5,9 @@ Custom CSS theme for Obsidian.
 ![Main](./Screenshots/bio.png)
 ![Graph](./Screenshots/graph.png)
 
+### Dracula Themed Codeblocks
+![Code](./Screenshots/code.png)
+
 ## Light Theme
 ![Light](./Screenshots/light.png)
 ![Graph Light](./Screenshots/graph_light.png)
