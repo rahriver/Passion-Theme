@@ -15,7 +15,7 @@ Custom CSS theme for Obsidian:
 
 ## Light Theme
 ![Light](./Screenshots/light.png)
-![Graph Light](./Screenshots/graph_light.png)
+![Graph Light](./Screenshots/graph-light.png)
 
 ---
 ### ☕ Support
