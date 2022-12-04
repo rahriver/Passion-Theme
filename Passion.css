@@ -96,10 +96,10 @@
   --text-highlight-bg: #deff00;
   --text-selection: #5871ef;
   --text-on-accent: #ffffff;
-  --interactive-normal: #fff;
-  --interactive-hover: #fff;
+  --interactive-normal: #3d3d3d;
+  --interactive-hover: #4f4f4f;
   --interactive-accent-rgb: 21, 146, 255;
-  --interactive-accent: #cccccc;
+  --interactive-accent: #7fba00;
   --interactive-accent-hover: #445bd1;
   --scrollbar-active-thumb-bg: rgba(0, 0, 0, 0.2);
   --scrollbar-bg: rgba(0, 0, 0, 0.05);
@@ -384,7 +384,7 @@ h1, h2, h3, h4, h5, h6, strong, b, .view-header-title {
 
 .status-bar {
   --bar-vertical-padding: 2px;
-  --bar-height: calc(22px + (var(--bar-vertical-padding) * 2));
+  --bar-height: calc(25px + (var(--bar-vertical-padding) * 9));
   line-height: 20px;
   padding: 0 20px;
   height: var(--bar-height);
